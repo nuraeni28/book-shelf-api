@@ -1,0 +1,27 @@
+{
+  "name": "book_shelf_api",
+  "version": "1.0.0",
+  "description": "Submission Belajar Membuat Aplikasi Back-End untuk Pemula",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nuraeni28/book-shelf-api.git"
+  },
+  "author": "nuraeni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nuraeni28/book-shelf-api/issues"
+  },
+  "homepage": "https://github.com/nuraeni28/book-shelf-api#readme",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "nanoid": "^3.3.4"
+  }
+}
